@@ -21,10 +21,10 @@
 }
 .border{
     /* border: 2px solid transparent; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .border:hover{
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
 }
 .nav-add {
     color:white;
@@ -48,8 +48,9 @@
    font-size: 0.7rem;
 }
 .image{
-    height:250px;
-    background-image: url(product.jpg) ;
+    height:600px;
+    background-image: url(product.jpg);
+    display: flex;
 }
 #sel{
     height: 30px;
@@ -60,7 +61,7 @@
 .search{
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 700px;
     justify-content: center;
 }
 .option{
@@ -122,6 +123,30 @@
     margin-top: 12px;
 }
 .box1{
-    height: 200px;
+    height: 300px;
   background-image: url("p2.jpg");
+  margin-top: 300px;
+  width: 300px;
+  margin-left: 30px;
+}
+.box2{
+    height: 300px;
+  background-image: url("p3.jpg");
+  margin-top: 300px;
+  width: 300px;
+  margin-left: 30px;
+}
+.box3{
+    height: 300px;
+  background-image: url("p4.jpg");
+  margin-top: 300px;
+  width: 300px;
+  margin-left: 30px;
+}
+.box4{
+    height: 300px;
+  background-image: url("p5.jpg");
+  margin-top: 300px;
+  width: 300px;
+  margin-left: 30px;
 }
