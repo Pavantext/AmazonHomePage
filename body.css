@@ -20,11 +20,11 @@
     height: 50px;
 }
 .border{
-    /* border: 2px solid transparent; */
+    border: 2px solid transparent;
     /* border-radius: 10px; */
 }
 .border:hover{
-    /* border: 2px solid whitesmoke; */
+    border: 2px solid whitesmoke;
 }
 .nav-add {
     color:white;
@@ -51,6 +51,7 @@
     height:600px;
     background-image: url(product.jpg);
     display: flex;
+    justify-content: space-evenly;
 }
 #sel{
     height: 30px;
@@ -124,29 +125,87 @@
 }
 .box1{
     height: 300px;
-  background-image: url("p2.jpg");
+  background-color: #fff;
   margin-top: 300px;
   width: 300px;
   margin-left: 30px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+ 
+}
+.section{
+    flex: 1;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.anc{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 10px;
+}
+.inside-box{
+    height: 90px;
+    width: 100px;
+    background-image: url("p12.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    flex: 1;
+    
 }
 .box2{
     height: 300px;
-  background-image: url("p3.jpg");
+    background-color: #fff;
   margin-top: 300px;
   width: 300px;
   margin-left: 30px;
+  display: flex;
 }
 .box3{
     height: 300px;
-  background-image: url("p4.jpg");
+    background-color: #fff;
   margin-top: 300px;
   width: 300px;
   margin-left: 30px;
+  display: flex;
 }
 .box4{
     height: 300px;
-  background-image: url("p5.jpg");
+    background-color: #fff;
   margin-top: 300px;
   width: 300px;
   margin-left: 30px;
+  display: flex;
+}
+.single-img{
+    width: 400px;
+    background-size: cover;
+    margin: 25px;
+}
+.footer{
+    height: 400px;
+}
+.foot-top{
+    height: 60px;
+    background-color: #445b78;
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extra{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.extra-height{
+    height: 200px;
+    width: 200px;
+    color: #cccccc;
+    font-size: 15px;
+    margin: 20px;
+    /* display: flex-box; */
+
 }
